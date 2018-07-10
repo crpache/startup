@@ -89,7 +89,7 @@ class App extends Component {
            yearInput={(event)=>this.newMovieYear(event)}
            minsInput={(event)=>this.newMovieMins(event)}
            addMovie={addMovie}/>
-        <button onClick={this.toggleMoviesHandler}>{showMoviesButton}</button>
+        <button onClick={this.toggleMoviesHandler} id="ShowMovieButton">{showMoviesButton}</button>
 
         <div className="MovieList"> {/*This should be a component*/}
           {movieList}
