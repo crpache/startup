@@ -8,7 +8,7 @@ const movieCreator = (props)=>{
       <p> Title   <input type="text" onChange={props.titleInput} className="input"/></p>
       <p> Year    <input type="text" onChange={props.yearInput}className="input"/></p>
       <p> Mins    <input type="text" onChange={props.minsInput}className="input"/></p>
-      <button onClick={props.addMovie}>Add</button>
+      <button onClick={props.addMovie} id="AddMovieButton">Add</button>
     </div>
   );
 }
