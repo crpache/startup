@@ -24,6 +24,10 @@
   text-align: center;
 }
 
+#ShowMovieButton{
+  margin-bottom: 15px;
+}
+
 button{
   border: .5px solid #bbb;
   padding: 4px;
