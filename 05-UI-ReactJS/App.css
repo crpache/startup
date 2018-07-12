@@ -1,0 +1,51 @@
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #223;
+  padding: 0px 10px;
+  color: white;
+  overflow: hidden;
+}
+
+.App-title {
+  font-size: 2.3em;
+  text-align: center;
+  padding: 10px;
+
+}
+
+.MovieList{
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#ShowMovieButton{
+  margin-bottom: 15px;
+  padding: 8px;
+}
+
+button{
+  border: .5px solid #bbb;
+  padding: 4px;
+  background-color: white;
+  color: #444;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #ccf;
+}
+
+button:focus{
+  outline:0;
+}
+
+input:focus{
+  outline: 0;
+  color: #555;
+}
